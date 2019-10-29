@@ -5,23 +5,13 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 
 import { SlickCarouselModule } from "ngx-slick-carousel";
-import { BsDropdownModule } from "ngx-bootstrap/dropdown";
-import { TooltipModule } from "ngx-bootstrap/tooltip";
-import { ModalModule } from "ngx-bootstrap/modal";
 
 // import { OwlModule } from 'ngx-owl-carousel';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    SlickCarouselModule,
-    BsDropdownModule.forRoot(),
-    TooltipModule.forRoot(),
-    ModalModule.forRoot()
-  ],
-  exports: [BsDropdownModule, TooltipModule, ModalModule],
+  imports: [BrowserModule, AppRoutingModule, SlickCarouselModule],
+  exports: [],
   providers: [],
   bootstrap: [AppComponent]
 })
