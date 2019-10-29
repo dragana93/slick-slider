@@ -28,13 +28,21 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ##Creating a new project
+
 $ ng new slick-slider
+
 $ cd solick-slider
 
-#Installing libraries
+
+##Installing libraries
+
 $ npm install jquery --save
+
 $ npm install slick-carousel --save
+
 $ npm install ngx-slick-carousel --save
 
-#Running project
+
+##Running project
+
 ng serve --open
